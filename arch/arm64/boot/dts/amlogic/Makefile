@@ -8,6 +8,8 @@ dtb-y += g12b_a311d_w400_buildroot.dtb
 endif
 dtb-$(CONFIG_ARCH_MESON64_BANANAPI_M5) += meson64_bananapi_m5.dtb
 dtb-$(CONFIG_ARCH_MESON64_BANANAPI_M5) += meson64_bananapi_m5_android.dtb
+dtb-$(CONFIG_ARCH_MESON64_BANANAPI_M5) += meson64_bananapi_m2_pro.dtb
+dtb-$(CONFIG_ARCH_MESON64_BANANAPI_M5) += meson64_bananapi_m2_pro_android.dtb
 dtb-$(CONFIG_ARCH_MESON64_ODROIDC4) += meson64_odroidc4.dtb
 dtb-$(CONFIG_ARCH_MESON64_ODROIDC4) += meson64_odroidc4_android.dtb
 dtb-$(CONFIG_ARCH_MESON64_ODROIDC4) += meson64_odroidhc4.dtb
